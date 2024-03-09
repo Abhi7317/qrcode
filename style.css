@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main {
+  background-color: #d5e1ef;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qrBody {
+  background-color: #fff;
+  height: 24.9rem;
+  width: 16rem;
+  padding: 0.8rem;
+}
+.qrImage {
+  background: #2c7dfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14.4rem;
+  width: 14.4rem;
+  margin-bottom: 0.5rem;
+}
+.qrImage img {
+  height: 8rem;
+  width: 8rem;
+}
+h3,
+p {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
